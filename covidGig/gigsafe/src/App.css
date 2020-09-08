@@ -1,0 +1,76 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  cursor: pointer;
+  transition: color 0.5s;
+}
+a:hover{
+  color: #db41ba;
+}
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0b0c0e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input.textinput {
+  height: 20px;
+  width: 150px;
+  margin: 5px 10px;
+  align-self: center;
+}
+
+.createUser{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.buttonContainer{
+  padding: 20px;
+}
+
+.button {
+  background-color: #6f61e9;
+  color: white;
+  padding: 3px 5px;
+  margin: 10px;  
+  border-radius: 3px;
+  transition: background-color 0.5s, color 0.7s;
+}
+
+.button:hover{
+  background-color: #2099bb;
+  color: #19193a;
+}
+
+.hiddenForm{
+  height: 0;
+  overflow: hidden;
+  border: 1px solid #db41ba;
+  border-radius: 3px;
+  transition: height 0.8s, width 0.3s, background-color 1.8s;
+  width: 20%;
+  margin:auto;
+  color: #19193a;
+}
+
