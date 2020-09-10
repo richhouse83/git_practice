@@ -13,7 +13,7 @@ app.use(errorHandler());
 app.use(morgan('dev'));
 app.use(cors());
 
-const PORT = 4000;
+const PORT = process.env.PORT;
 
 app.use('/api', apiRouter);
 
